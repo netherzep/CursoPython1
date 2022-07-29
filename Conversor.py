@@ -24,7 +24,9 @@ def Dolares(pesos):
 if deseo == 1:
     
     print ("Usted tiene USD: " + str(Dolares(pesos)))
-
-if deseo == 2:
+elif deseo == 2:
     
     print ("Usted tiene EU: " + str(Euros(pesos)))
+else:
+
+    print("Ingrese la opcion correcta ")
